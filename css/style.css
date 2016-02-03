@@ -1072,7 +1072,8 @@ main .countdown-block * + .countdown {
 .well-2 {
     position: relative;
     z-index: 10;
-    padding-top: 105px;
+    /*padding-top: 105px;*/
+    padding-top: 45px;
 }
 
 .well-2 .row + .row {

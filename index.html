@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
 <head>
-    <title ng-bind="'title' | translate">B&Y Diamantschmuck</title>
+    <base href="/diamante/">
+    <title>B&Y Diamantschmuck</title>
     <meta charset="utf-8">
     <meta name="description" content="B&Y Hochwertiger Diamantschmuck">
     <meta name="keywords"
@@ -55,7 +56,7 @@
     <div  class="scroll">
         <div id="text_scroll">
             <span>+49 173 4673838</span>
-            <p><a href="#callModal">Rückruf bestellen</a></p>
+            <p><a href="#callModal">{{'main.btn.phone' | translate}}</a></p>
         </div>
 
         <!--<div id="get_call" class="modalDialog">
@@ -82,17 +83,17 @@
         </div>-->
         <div class="remodal callModal" data-remodal-id="callModal">
             <button data-remodal-action="close" class="remodal-close"></button>
-            <h6>Wir werden Sie zeitnah kontaktieren</h6>
+            <h6>{{'main.call.header' | translate}}</h6>
             <br>
             <form method="post" action="http://www.by-diamanten.de/cgi-bin/FormMail.pl"
                   window.onbeforeunload=function () {document.charset=originalCharset;};">
 
-                <input type="text" class="form-control" name="realname" placeholder="Name"/>
+                <input type="text" class="form-control" name="realname" placeholder="{{'main.call.name'|translate}}"/>
                 <br>
-                <input type="text" class="form-control" name="phone" placeholder="Ihre Telefonnummer"/>
+                <input type="text" class="form-control" name="phone" placeholder="{{'main.call.phone'|translate}}"/>
                 <br>
 
-                <button type="submit" value="Senden" class="remodal-confirm btn">Rückruf bestellen</button>
+                <button type="submit" value="Senden" class="remodal-confirm btn">{{'main.btn.phone' | translate}}</button>
 
                 <input type="hidden" name="recipient" value="kontakt@by-diamanten.de"/>
                 <input type="hidden" name="subject" value="Subject"/>
@@ -119,11 +120,11 @@
                         </h1>
 
                         <p class="brand_slogan">
-                            Hochwertiger<br>Diamantschmuck
+                            {{'main.brand-slogan1' | translate}}<br>{{'main.brand-slogan2' | translate}}
                         </p>
                     </div>
-                    <h4><span>Kollektion 2016</span></h4>
-                    <a class="btn btnWhite" id="btnCatalog" href="#catalog">Katalog</a>
+                    <h4><span>{{'main.collection' | translate}} 2016</span></h4>
+                    <a class="btn btnWhite" id="btnCatalog" href="#catalog">{{'main.btn.catalog' | translate}}</a>
                 </div>
             </div>
         </section>
@@ -137,17 +138,14 @@
                 <div class="row">
                     <div class="grid_7">
                         <div class="cnt2">
-                            <h3>Herzlich Willkommen!</h3>
+                            <h3>{{'main.well-2.header' | translate}}</h3>
 
-                            <p><span>Unsere neue Kollektion 2016 ist dafür geschaffen die Augen zu begeistern und die Herzen zu entflammen.</span>
+                            <p><span>{{'main.well-2.sub-header' | translate}}</span>
                             </p>
 
-                            <p>Alle unsere Schmuckmodelle werden aus Diamanten höchster Qualität hergestellt, die ein
-                                GIA-Zertifikat vorweisen können. Wir verwenden je nach Wahl der Kunden 14 bzw. 18 Karat
-                                Gold in Farbe Gelb, Rose oder Weiß.</p>
+                            <p>{{'main.well-2.text1' | translate}}</p>
 
-                            <p>Individuelle Beratung der Kunden ist uns sehr wichtig und unerlässlich, </br>sie führt zu
-                                gegenseitiger Zufriedenheit...</p>
+                            <p>{{'main.well-2.text2' | translate}} </br>{{'main.well-2.text3' | translate}}</p>
                         </div>
                     </div>
                 </div>
