@@ -6,12 +6,25 @@
 
   "main.btn.phone": "RÜCKRUF ANFORDERN",
   "main.call.header": "Wir werden Sie zeitnah kontaktieren",
-  "main.call.name": "Name",
+  "main.call.name": "Name, Vorname",
   "main.call.phone": "Ihre Telefonnumer",
 
   "main.well-2.header": "Herzlich Willkommen!",
   "main.well-2.sub-header": "Unsere neue Kollektion 2016 ist dafür geschaffen die Augen zu begeistern und die Herzen zu entflammen.",
   "main.well-2.text1": "Alle unsere Schmuckmodelle werden aus Diamanten höchster Qualität hergestellt, die ein GIA/IGI/IGL-Zertifikat vorweisen können. Wir verwenden je nach Wahl der Kunden 14 bzw. 18 Karat Gold in Farbe Gelb, Rose oder Weiß.",
   "main.well-2.text2": "Individuelle Beratung der Kunden ist uns sehr wichtig und unerlässlich,",
-  "main.well-2.text3": "sie führt zu gegenseitiger Zufriedenheit..."
+  "main.well-2.text3": "sie führt zu gegenseitiger Zufriedenheit...",
+
+  "main.btn.catalog-download": "Katalog herunterladen",
+  "main.well-3.text1": "Mehr als 10 Jahre begeistert",
+  "main.well-3.text2": "Diamantschmuck Ihre Kunden mit außergewöhnlichen, eleganten und unkonventionellen Modellen und der hervorragenden Qualität. Evgeniy Bril und Nerik Yoabov waren langjährige Freunde bevor sie sich entschieden haben eine gemeinsame Firma zu gründen. Die langjährige Freundschaft wurde zu einer Partnerschaft, für die die Zufriedenheit der Kunden an erster Stelle steht.",
+
+  "main.well-4.header": "GIA-Zertifikat",
+  "main.well-4.text": "Als weiterer wichtiger Punkt der preisbildenden Kriterien ist das Zertifikat bzw. die Expertise des Diamanten zu nennen. Ein Zertifikat ist quasi der Pass des Diamanten. In ihm sind neben den genauen Maßen des Diamanten alle identitätsgebenden Merkmale enthalten, mit denen der Diamant zweifelsfrei identifiziert werden kann.",
+
+  "main.contact": "Kontakt",
+  "main.contact.phone": "Telefon",
+  "main.contact.msg": "Nachricht",
+  "main.contact.send": "Senden"
+
 }

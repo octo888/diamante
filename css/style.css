@@ -15,6 +15,10 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -1264,9 +1268,28 @@ footer .map {
     width: 50%;
 }
 
+
+
+.lang {
+    z-index: 1;
+    position: absolute;
+    background: inherit;
+    top: 10px;
+    right: 60px;
+}
+
+#ru {
+    max-height: 60px;
+    max-width: 80px;
+}
+#de {
+    max-height: 55px;
+    max-width: 80px;
+}
+
 .scroll {
     position: fixed;
-    top: 20px;
+    top: 90px;
     right: 60px;
     z-index: 9999;
 }
