@@ -25,6 +25,10 @@
   "main.contact": "Kontakt",
   "main.contact.phone": "Telefon",
   "main.contact.msg": "Nachricht",
-  "main.contact.send": "Senden"
+  "main.contact.send": "Senden",
+
+  "danke.header": "Danke",
+  "danke.text1": "Danke für Ihre Nachricht",
+  "danke.text2": "Wir werden uns schnellstmöglich mit Ihnen in verbindung setzen."
 
 }

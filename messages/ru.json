@@ -25,5 +25,9 @@
   "main.contact": "Контакт",
   "main.contact.phone": "Телефон",
   "main.contact.msg": "Сообщение",
-  "main.contact.send": "Послать"
+  "main.contact.send": "Послать",
+
+  "danke.header": "Спасибо",
+  "danke.text1": "Спасибо за Ваше сообщение.",
+  "danke.text2": "Мы свяжемся с Вами в ближайшее время."
 }
