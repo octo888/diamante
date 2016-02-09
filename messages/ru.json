@@ -5,8 +5,8 @@
   "main.btn.catalog": "КАТАЛОГ",
 
   "main.btn.phone": "Мы Вам перезвоним",
-  "main.call.header": "Мы свяжемся с Вами в ближайшее время",
-  "main.call.name": "Фамилия Имя",
+  "main.call.header": "Позвоните нам +491734673838 или мы свяжемся с Вами в ближайшее время",
+  "main.call.name": "Фамилия, имя",
   "main.call.phone": "Ваш номер телефона",
 
   "main.well-2.header": "Добро пожаловать!",
@@ -26,6 +26,8 @@
   "main.contact.phone": "Телефон",
   "main.contact.msg": "Сообщение",
   "main.contact.send": "Послать",
+
+  "footer.main": "Главная",
 
   "danke.header": "Спасибо",
   "danke.text1": "Спасибо за Ваше сообщение.",

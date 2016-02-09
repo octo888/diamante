@@ -55,40 +55,19 @@
 <body ng-controller="HomeCtrl" class="ng-cloak" ng-cloak>
 <div class="page">
     <div class="lang">
-        <a href="" ng-click="switchLang('de')"><img id="de" src="images/germany_640.png" ></a>
-        <a href="" ng-click="switchLang('ru')"><img id="ru" src="images/russia_640.png" ></a>
+        <a href="" ng-click="switchLang('de')"><img id="de" src="images/germany.png" ></a>
+        <a href="" ng-click="switchLang('ru')"><img id="ru" src="images/russia.png" ></a>
     </div>
     <div  class="scroll">
         <div id="text_scroll">
-            <span>+49 173 4673838</span>
-            <p><a href="#callModal">{{'main.btn.phone' | translate}}</a></p>
+            <a href="#callModal"><img src="images/diamond-web-75.png"></a>
+            <!--<span>+49 173 4673838</span>
+            <p><a href="#callModal">{{'main.btn.phone' | translate}}</a></p>-->
         </div>
 
-        <!--<div id="get_call" class="modalDialog">
-            <div>
-                <a href="#closeModal" title="Close" class="close">X</a>
-                <h5>Wir werden Sie zeitnah kontaktieren</h5>
-                <hr>
-                <form method="post" action="http://www.by-diamanten.de/cgi-bin/FormMail.pl"
-                      window.onbeforeunload=function () {document.charset=originalCharset;};">
-                    &lt;!&ndash;<label>Name</label>&ndash;&gt;
-                    <input type="text" name="realname" placeholder="Name"/>
-                    <br>
-                   &lt;!&ndash; <label>Ihre Telefonnummer</label>&ndash;&gt;
-                    <input type="text" name="phone" placeholder="Ihre Telefonnummer"/>
-                    <br> <br>
-                    <button type="submit" class="btn">Anruf bestellen</button>
-                    <input type="hidden" name="recipient" value="kontakt@by-diamanten.de"/>
-                    <input type="hidden" name="subject" value="Subject"/>
-                    <input type="hidden" name="redirect"
-                           value="http://www.by-diamanten.de/danke.html"/>
-                    <input type="hidden" name="required" value="realname,phone"/>
-                </form>
-            </div>
-        </div>-->
         <div class="remodal callModal" data-remodal-id="callModal">
             <button data-remodal-action="close" class="remodal-close"></button>
-            <h6>{{'main.call.header' | translate}}</h6>
+            <h6 style="line-height: 35px">{{'main.call.header' | translate}}</h6>
             <br>
             <form method="post" action="http://www.by-diamanten.de/cgi-bin/FormMail.pl"
                   window.onbeforeunload=function () {document.charset=originalCharset;};">
@@ -125,11 +104,11 @@
                             <a href="./"><img src="images/page_logo.png" alt=""></a>
                         </h1>
 
-                        <p class="brand_slogan">
+                        <p ng-init="isLang('.brand_slogan')" class="brand_slogan">
                             {{'main.brand-slogan1' | translate}}<br>{{'main.brand-slogan2' | translate}}
                         </p>
                     </div>
-                    <h4><span>{{'main.collection' | translate}} 2016</span></h4>
+                    <h4><span ng-init="cntSpanFont()">{{'main.collection' | translate}} 2016</span></h4>
                     <a class="btn btnWhite" id="btnCatalog" href="#catalog">{{'main.btn.catalog' | translate}}</a>
                 </div>
             </div>
@@ -171,79 +150,130 @@
             <div class="container">
                 <div class="row" id="catalog" >
                     <div class="grid_2 img-catalog">
-                       <a class="image-popup-vertical-fit" href="images/catalog/Juliette.jpg"><img src="images/catalog/Juliette.jpg"></a>
+                       <a class="image-popup-vertical-fit" href="images/catalog/1.jpg"><img src="images/catalog/1.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Olivia.jpg"><img src="images/catalog/Olivia.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/2.jpg"><img src="images/catalog/2.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Helena.jpg"><img src="images/catalog/Helena.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/3.jpg"><img src="images/catalog/3.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Marta.jpg"><img src="images/catalog/Marta.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/4.jpg"><img src="images/catalog/4.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Christina.jpg"><img src="images/catalog/Christina.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/5.jpg"><img src="images/catalog/5.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Valeri.jpg"><img src="images/catalog/Valeri.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/6.jpg"><img src="images/catalog/6.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Stefani.jpg"><img src="images/catalog/Stefani.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/7.jpg"><img src="images/catalog/7.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Helma.jpg"><img src="images/catalog/Helma.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/8.jpg"><img src="images/catalog/8.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Victoria.jpg"><img src="images/catalog/Victoria.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/9.jpg"><img src="images/catalog/9.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Lisa.jpg"><img src="images/catalog/Lisa.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/10.jpg"><img src="images/catalog/10.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Daniella%20Ohrringe.jpg"><img src="images/catalog/Daniella%20Ohrringe.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/11.jpg"><img src="images/catalog/11.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Daniella%20Ring.jpg"><img src="images/catalog/Daniella%20Ring.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/12.jpg"><img src="images/catalog/12.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Adele.jpg"><img src="images/catalog/Adele.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/13.jpg"><img src="images/catalog/13.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Magdalena.jpg"><img src="images/catalog/Magdalena.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/14.jpg"><img src="images/catalog/14.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Violetta.jpg"><img src="images/catalog/Violetta.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/15.jpg"><img src="images/catalog/15.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Wilma.jpg"><img src="images/catalog/Wilma.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/16.jpg"><img src="images/catalog/16.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Evelin.jpg"><img src="images/catalog/Evelin.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/17.jpg"><img src="images/catalog/17.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Mia.jpg"><img src="images/catalog/Mia.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/18.jpg"><img src="images/catalog/18.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Clara.jpg"><img src="images/catalog/Clara.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/19.jpg"><img src="images/catalog/19.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Paula.jpg"><img src="images/catalog/Paula.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/20.jpg"><img src="images/catalog/20.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Jana%20Ohrringe.jpg"><img src="images/catalog/Jana%20Ohrringe.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/21.jpg"><img src="images/catalog/21.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Jana%20Ring.jpg"><img src="images/catalog/Jana%20Ring.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/22.jpg"><img src="images/catalog/22.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Rosi.jpg"><img src="images/catalog/Rosi.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/23.jpg"><img src="images/catalog/23.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Erika.jpg"><img src="images/catalog/Erika.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/24.jpg"><img src="images/catalog/24.jpg"></a>
                     </div>
                     <div class="grid_2 img-catalog">
-                        <a class="image-popup-vertical-fit" href="images/catalog/Tina.jpg"><img src="images/catalog/Tina.jpg"></a>
+                        <a class="image-popup-vertical-fit" href="images/catalog/25.jpg"><img src="images/catalog/25.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/26.jpg"><img src="images/catalog/26.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/27.jpg"><img src="images/catalog/27.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/28.jpg"><img src="images/catalog/28.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/29.jpg"><img src="images/catalog/29.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/30.jpg"><img src="images/catalog/30.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/31.jpg"><img src="images/catalog/31.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/32.jpg"><img src="images/catalog/32.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/33.jpg"><img src="images/catalog/33.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/34.jpg"><img src="images/catalog/34.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/35.jpg"><img src="images/catalog/35.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/36.jpg"><img src="images/catalog/36.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/37.jpg"><img src="images/catalog/37.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/38.jpg"><img src="images/catalog/38.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/39.jpg"><img src="images/catalog/39.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/40.jpg"><img src="images/catalog/40.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/41.jpg"><img src="images/catalog/41.jpg"></a>
+                    </div>
+                    <div class="grid_2 img-catalog">
+                        <a class="image-popup-vertical-fit" href="images/catalog/42.jpg"><img src="images/catalog/42.jpg"></a>
                     </div>
                 </div>
                 <div style="text-align: center">
@@ -271,7 +301,7 @@
             <div class="container">
                 <div class="row">
                     <div class="grid_5">
-                        <h4>{{'main.well-4.header' | translate }}</h4>
+                        <h4 ng-init="cnt4Font()">{{'main.well-4.header' | translate }}</h4>
 
                         <div class="box-2">
 
@@ -282,7 +312,7 @@
                         </div>
                         <div class="box-2">
                             <div class="box-2_aside">
-                                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/5p7BP_i8kkY"
+                                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/tXdPlZPI9qM"
                                         frameborder="0" allowfullscreen></iframe>
                                 <!--02\
                                   </div>
@@ -498,12 +528,21 @@
 =========================================================-->
 <footer>
     <div class="container">
+        <div class="well-7">
+            <div class="row" style="text-align: center">
+                <div class="footer_logo">
+                    <a href="http://www.gia.edu/" target="_blank"><img src="images/2_gia.png" ></a>
+                    <a href="http://www.igiworldwide.com/" target="_blank"><img src="images/4_igi.png" ></a>
+                    <a href="http://www.igl-labs.com/" target="_blank"><img src="images/igl.png" ></a>
+                </div>
+            </div>
+        </div>
         <div class="footer well-7">
             <div class="row">
                 <div class="grid_5" style="padding-left:20px">
-                    <a href="/index.html">Home</a>
-                    <a href="/impressum.html" style="padding-left:10px">Impressum</a>
-                    <a href="#contactModal" style="padding-left:10px">Kontakt</a>
+                    <a href="/index.html">{{'footer.main' | translate }}</a>
+                    <a href="/impressum.html" target="_self" style="padding-left:10px">Impressum</a>
+                    <a href="#contactModal" style="padding-left:10px">{{'main.contact' | translate}}</a>
                     <!--<ul class="soc-list">
                       <li><a class="fa fa-twitter" href="#"></a></li>
                       <li><a class="fa fa-facebook" href="#"></a></li>

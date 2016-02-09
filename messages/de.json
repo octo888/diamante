@@ -5,7 +5,7 @@
   "main.btn.catalog": "KATALOG",
 
   "main.btn.phone": "RÜCKRUF ANFORDERN",
-  "main.call.header": "Wir werden Sie zeitnah kontaktieren",
+  "main.call.header": "Rufen Sie uns an +491734673838 oder Wir werden Sie zeitnah kontaktieren",
   "main.call.name": "Name, Vorname",
   "main.call.phone": "Ihre Telefonnumer",
 
@@ -26,6 +26,8 @@
   "main.contact.phone": "Telefon",
   "main.contact.msg": "Nachricht",
   "main.contact.send": "Senden",
+
+  "footer.main": "Home",
 
   "danke.header": "Danke",
   "danke.text1": "Danke für Ihre Nachricht",
