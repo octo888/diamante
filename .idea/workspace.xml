@@ -2,40 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2268b02-b06c-4ff4-a1c2-11dc04ff9578" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Adele.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Blanka.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Christina.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Clara.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Daniella Ohrringe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Daniella Ring.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Erika.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Evelin.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Helena.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Helma.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Jana Ohrringe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Jana Ring.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Juliette.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Lisa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Magdalena.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Marta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Mia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Olivia.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Paula.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Rosi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Stefani.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Tina.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Valeri.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Victoria.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Violetta.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/catalog/Wilma.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/HomeCtrl.js" afterPath="$PROJECT_DIR$/lib/HomeCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danke.html" afterPath="$PROJECT_DIR$/danke.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages/de.json" afterPath="$PROJECT_DIR$/messages/de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/impressum.html" afterPath="$PROJECT_DIR$/impressum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages/ru.json" afterPath="$PROJECT_DIR$/messages/ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="diamante.iws" />
@@ -640,7 +606,7 @@
       <workItem from="1454609816019" duration="5279000" />
       <workItem from="1454747830073" duration="2732000" />
       <workItem from="1454951264744" duration="4868000" />
-      <workItem from="1455040019605" duration="10148000" />
+      <workItem from="1455040019605" duration="10183000" />
     </task>
     <task id="LOCAL-00001" summary="angular">
       <created>1454157573058</created>
@@ -660,11 +626,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454751689554</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="last">
+      <created>1455052474961</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1455052474961</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29349000" />
+    <option name="totallyTimeSpent" value="29384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
@@ -672,6 +644,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -688,7 +661,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -711,7 +683,8 @@
     <MESSAGE value="angular" />
     <MESSAGE value="lang" />
     <MESSAGE value="lang danke" />
-    <option name="LAST_COMMIT_MESSAGE" value="lang danke" />
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
